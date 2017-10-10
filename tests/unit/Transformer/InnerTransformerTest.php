@@ -84,4 +84,12 @@ class InnerTransformerTest extends \Codeception\Test\Unit
         $this->expectException(TransformationException::class);
         $transformer->transform(['12.12.2017 12:12:12']);
     }
+    
+    public function test7()
+    {
+        $this->expectException(TypeError::class);
+        new InnerTransformer(
+            new stdClass()
+        );
+    }
 }

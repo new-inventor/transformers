@@ -8,25 +8,10 @@
 namespace NewInventor\Transformers\Transformer;
 
 
-use NewInventor\Transformers\Transformer;
-use NewInventor\Transformers\TransformerContainerInterface;
-use NewInventor\Transformers\TransformerInterface;
+use NewInventor\Transformers\TransformerContainer;
 
-class ChainTransformer extends Transformer implements TransformerContainerInterface
+class ChainTransformer extends TransformerContainer
 {
-    /** @var TransformerInterface[][] */
-    protected $transformers;
-    
-    /**
-     * ArrayNormalizer constructor.
-     *
-     * @param array $transformers
-     */
-    public function __construct(TransformerInterface  ...$transformers)
-    {
-        $this->transformers = $transformers;
-    }
-    
     protected function transformInputValue($value)
     {
         if (!empty($this->transformers)) {

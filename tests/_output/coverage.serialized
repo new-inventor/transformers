@@ -206,71 +206,66 @@ $coverage->setData(array (
       25 => 'DateTimeToStringTest::test5',
       26 => 'DateTimeToStringTest::test6',
       27 => 'InnerTransformerTest::testSomeFeature',
-      28 => 'InnerTransformerTest::test1',
-      29 => 'InnerTransformerTest::test2',
-      30 => 'InnerTransformerTest::test3',
-      31 => 'InnerTransformerTest::test4',
-      32 => 'InnerTransformerTest::test5',
-      33 => 'InnerTransformerTest::test6',
-      34 => 'StringToCamelCaseTest::testSomeFeature',
-      35 => 'StringToCamelCaseTest::test1',
-      36 => 'StringToCamelCaseTest::test2',
-      37 => 'StringToCamelCaseTest::test3',
-      38 => 'StringToCamelCaseTest::test4',
-      39 => 'StringToCamelCaseTest::test5',
-      40 => 'StringToDateTimeTest::testSomeFeature',
-      41 => 'StringToDateTimeTest::test1',
-      42 => 'StringToDateTimeTest::test2',
-      43 => 'StringToDateTimeTest::test3',
-      44 => 'StringToDateTimeTest::test4',
-      45 => 'StringToDateTimeTest::test5',
-      46 => 'StringToLowerCaseTest::testSomeFeature',
-      47 => 'StringToLowerCaseTest::test1',
-      48 => 'StringToLowerCaseTest::test2',
-      49 => 'StringToLowerCaseTest::test3',
-      50 => 'StringToLowerCaseTest::test4',
-      51 => 'StringToLowerCaseTest::test5',
-      52 => 'StringToPhoneTest::testSomeFeature',
-      53 => 'StringToPhoneTest::test1',
-      54 => 'StringToPhoneTest::test2',
-      55 => 'StringToPhoneTest::test3',
-      56 => 'StringToPhoneTest::test4',
-      57 => 'StringToPhoneTest::test5',
-      58 => 'StringToScreamingCaseTest::testSomeFeature',
-      59 => 'StringToScreamingCaseTest::test1',
-      60 => 'StringToScreamingCaseTest::test2',
-      61 => 'StringToScreamingCaseTest::test3',
-      62 => 'StringToScreamingCaseTest::test4',
-      63 => 'StringToScreamingCaseTest::test5',
-      64 => 'StringToUpperCaseTest::testSomeFeature',
-      65 => 'StringToUpperCaseTest::test1',
-      66 => 'StringToUpperCaseTest::test2',
-      67 => 'StringToUpperCaseTest::test3',
-      68 => 'StringToUpperCaseTest::test4',
-      69 => 'StringToUpperCaseTest::test5',
-      70 => 'ToArrayTest::testSomeFeature',
-      71 => 'ToBoolTest::testSomeFeature',
-      72 => 'ToFloatTest::testSomeFeature',
-      73 => 'ToFloatTest::test2',
-      74 => 'ToFloatTest::test3',
-      75 => 'ToFloatTest::test4',
-      76 => 'ToFloatTest::test5',
-      77 => 'ToIntTest::testSomeFeature',
-      78 => 'ToIntTest::test2',
-      79 => 'ToIntTest::test3',
-      80 => 'ToIntTest::test4',
-      81 => 'ToIntTest::test5',
-      82 => 'ToRangeTest::testSomeFeature',
-      83 => 'ToStringTest::testSomeFeature',
-      84 => 'ToStringTest::test4',
-      85 => 'ToStringTest::test5',
-      86 => 'Utf8StringToAsciiStringTest::testSomeFeature',
-      87 => 'Utf8StringToAsciiStringTest::test1',
-      88 => 'Utf8StringToAsciiStringTest::test2',
-      89 => 'Utf8StringToAsciiStringTest::test3',
-      90 => 'Utf8StringToAsciiStringTest::test4',
-      91 => 'Utf8StringToAsciiStringTest::test5',
-      92 => 'TransformerTest::testSomeFeature',
+      28 => 'InnerTransformerTest::test6',
+      29 => 'StringToCamelCaseTest::testSomeFeature',
+      30 => 'StringToCamelCaseTest::test1',
+      31 => 'StringToCamelCaseTest::test2',
+      32 => 'StringToCamelCaseTest::test3',
+      33 => 'StringToCamelCaseTest::test4',
+      34 => 'StringToCamelCaseTest::test5',
+      35 => 'StringToDateTimeTest::testSomeFeature',
+      36 => 'StringToDateTimeTest::test1',
+      37 => 'StringToDateTimeTest::test2',
+      38 => 'StringToDateTimeTest::test3',
+      39 => 'StringToDateTimeTest::test4',
+      40 => 'StringToDateTimeTest::test5',
+      41 => 'StringToLowerCaseTest::testSomeFeature',
+      42 => 'StringToLowerCaseTest::test1',
+      43 => 'StringToLowerCaseTest::test2',
+      44 => 'StringToLowerCaseTest::test3',
+      45 => 'StringToLowerCaseTest::test4',
+      46 => 'StringToLowerCaseTest::test5',
+      47 => 'StringToPhoneTest::testSomeFeature',
+      48 => 'StringToPhoneTest::test1',
+      49 => 'StringToPhoneTest::test2',
+      50 => 'StringToPhoneTest::test3',
+      51 => 'StringToPhoneTest::test4',
+      52 => 'StringToPhoneTest::test5',
+      53 => 'StringToScreamingCaseTest::testSomeFeature',
+      54 => 'StringToScreamingCaseTest::test1',
+      55 => 'StringToScreamingCaseTest::test2',
+      56 => 'StringToScreamingCaseTest::test3',
+      57 => 'StringToScreamingCaseTest::test4',
+      58 => 'StringToScreamingCaseTest::test5',
+      59 => 'StringToUpperCaseTest::testSomeFeature',
+      60 => 'StringToUpperCaseTest::test1',
+      61 => 'StringToUpperCaseTest::test2',
+      62 => 'StringToUpperCaseTest::test3',
+      63 => 'StringToUpperCaseTest::test4',
+      64 => 'StringToUpperCaseTest::test5',
+      65 => 'ToArrayTest::testSomeFeature',
+      66 => 'ToBoolTest::testSomeFeature',
+      67 => 'ToFloatTest::testSomeFeature',
+      68 => 'ToFloatTest::test2',
+      69 => 'ToFloatTest::test3',
+      70 => 'ToFloatTest::test4',
+      71 => 'ToFloatTest::test5',
+      72 => 'ToIntTest::testSomeFeature',
+      73 => 'ToIntTest::test2',
+      74 => 'ToIntTest::test3',
+      75 => 'ToIntTest::test4',
+      76 => 'ToIntTest::test5',
+      77 => 'ToRangeTest::testSomeFeature',
+      78 => 'ToStringTest::testSomeFeature',
+      79 => 'ToStringTest::test4',
+      80 => 'ToStringTest::test5',
+      81 => 'Utf8StringToAsciiStringTest::testSomeFeature',
+      82 => 'Utf8StringToAsciiStringTest::test1',
+      83 => 'Utf8StringToAsciiStringTest::test2',
+      84 => 'Utf8StringToAsciiStringTest::test3',
+      85 => 'Utf8StringToAsciiStringTest::test4',
+      86 => 'Utf8StringToAsciiStringTest::test5',
+      87 => 'TransformerTest::testSomeFeature',
     ),
     32 => 
     array (
@@ -313,71 +308,66 @@ $coverage->setData(array (
       25 => 'DateTimeToStringTest::test5',
       26 => 'DateTimeToStringTest::test6',
       27 => 'InnerTransformerTest::testSomeFeature',
-      28 => 'InnerTransformerTest::test1',
-      29 => 'InnerTransformerTest::test2',
-      30 => 'InnerTransformerTest::test3',
-      31 => 'InnerTransformerTest::test4',
-      32 => 'InnerTransformerTest::test5',
-      33 => 'InnerTransformerTest::test6',
-      34 => 'StringToCamelCaseTest::testSomeFeature',
-      35 => 'StringToCamelCaseTest::test1',
-      36 => 'StringToCamelCaseTest::test2',
-      37 => 'StringToCamelCaseTest::test3',
-      38 => 'StringToCamelCaseTest::test4',
-      39 => 'StringToCamelCaseTest::test5',
-      40 => 'StringToDateTimeTest::testSomeFeature',
-      41 => 'StringToDateTimeTest::test1',
-      42 => 'StringToDateTimeTest::test2',
-      43 => 'StringToDateTimeTest::test3',
-      44 => 'StringToDateTimeTest::test4',
-      45 => 'StringToDateTimeTest::test5',
-      46 => 'StringToLowerCaseTest::testSomeFeature',
-      47 => 'StringToLowerCaseTest::test1',
-      48 => 'StringToLowerCaseTest::test2',
-      49 => 'StringToLowerCaseTest::test3',
-      50 => 'StringToLowerCaseTest::test4',
-      51 => 'StringToLowerCaseTest::test5',
-      52 => 'StringToPhoneTest::testSomeFeature',
-      53 => 'StringToPhoneTest::test1',
-      54 => 'StringToPhoneTest::test2',
-      55 => 'StringToPhoneTest::test3',
-      56 => 'StringToPhoneTest::test4',
-      57 => 'StringToPhoneTest::test5',
-      58 => 'StringToScreamingCaseTest::testSomeFeature',
-      59 => 'StringToScreamingCaseTest::test1',
-      60 => 'StringToScreamingCaseTest::test2',
-      61 => 'StringToScreamingCaseTest::test3',
-      62 => 'StringToScreamingCaseTest::test4',
-      63 => 'StringToScreamingCaseTest::test5',
-      64 => 'StringToUpperCaseTest::testSomeFeature',
-      65 => 'StringToUpperCaseTest::test1',
-      66 => 'StringToUpperCaseTest::test2',
-      67 => 'StringToUpperCaseTest::test3',
-      68 => 'StringToUpperCaseTest::test4',
-      69 => 'StringToUpperCaseTest::test5',
-      70 => 'ToArrayTest::testSomeFeature',
-      71 => 'ToBoolTest::testSomeFeature',
-      72 => 'ToFloatTest::testSomeFeature',
-      73 => 'ToFloatTest::test2',
-      74 => 'ToFloatTest::test3',
-      75 => 'ToFloatTest::test4',
-      76 => 'ToFloatTest::test5',
-      77 => 'ToIntTest::testSomeFeature',
-      78 => 'ToIntTest::test2',
-      79 => 'ToIntTest::test3',
-      80 => 'ToIntTest::test4',
-      81 => 'ToIntTest::test5',
-      82 => 'ToRangeTest::testSomeFeature',
-      83 => 'ToStringTest::testSomeFeature',
-      84 => 'ToStringTest::test4',
-      85 => 'ToStringTest::test5',
-      86 => 'Utf8StringToAsciiStringTest::testSomeFeature',
-      87 => 'Utf8StringToAsciiStringTest::test1',
-      88 => 'Utf8StringToAsciiStringTest::test2',
-      89 => 'Utf8StringToAsciiStringTest::test3',
-      90 => 'Utf8StringToAsciiStringTest::test4',
-      91 => 'Utf8StringToAsciiStringTest::test5',
-      92 => 'TransformerTest::testSomeFeature',
+      28 => 'InnerTransformerTest::test6',
+      29 => 'StringToCamelCaseTest::testSomeFeature',
+      30 => 'StringToCamelCaseTest::test1',
+      31 => 'StringToCamelCaseTest::test2',
+      32 => 'StringToCamelCaseTest::test3',
+      33 => 'StringToCamelCaseTest::test4',
+      34 => 'StringToCamelCaseTest::test5',
+      35 => 'StringToDateTimeTest::testSomeFeature',
+      36 => 'StringToDateTimeTest::test1',
+      37 => 'StringToDateTimeTest::test2',
+      38 => 'StringToDateTimeTest::test3',
+      39 => 'StringToDateTimeTest::test4',
+      40 => 'StringToDateTimeTest::test5',
+      41 => 'StringToLowerCaseTest::testSomeFeature',
+      42 => 'StringToLowerCaseTest::test1',
+      43 => 'StringToLowerCaseTest::test2',
+      44 => 'StringToLowerCaseTest::test3',
+      45 => 'StringToLowerCaseTest::test4',
+      46 => 'StringToLowerCaseTest::test5',
+      47 => 'StringToPhoneTest::testSomeFeature',
+      48 => 'StringToPhoneTest::test1',
+      49 => 'StringToPhoneTest::test2',
+      50 => 'StringToPhoneTest::test3',
+      51 => 'StringToPhoneTest::test4',
+      52 => 'StringToPhoneTest::test5',
+      53 => 'StringToScreamingCaseTest::testSomeFeature',
+      54 => 'StringToScreamingCaseTest::test1',
+      55 => 'StringToScreamingCaseTest::test2',
+      56 => 'StringToScreamingCaseTest::test3',
+      57 => 'StringToScreamingCaseTest::test4',
+      58 => 'StringToScreamingCaseTest::test5',
+      59 => 'StringToUpperCaseTest::testSomeFeature',
+      60 => 'StringToUpperCaseTest::test1',
+      61 => 'StringToUpperCaseTest::test2',
+      62 => 'StringToUpperCaseTest::test3',
+      63 => 'StringToUpperCaseTest::test4',
+      64 => 'StringToUpperCaseTest::test5',
+      65 => 'ToArrayTest::testSomeFeature',
+      66 => 'ToBoolTest::testSomeFeature',
+      67 => 'ToFloatTest::testSomeFeature',
+      68 => 'ToFloatTest::test2',
+      69 => 'ToFloatTest::test3',
+      70 => 'ToFloatTest::test4',
+      71 => 'ToFloatTest::test5',
+      72 => 'ToIntTest::testSomeFeature',
+      73 => 'ToIntTest::test2',
+      74 => 'ToIntTest::test3',
+      75 => 'ToIntTest::test4',
+      76 => 'ToIntTest::test5',
+      77 => 'ToRangeTest::testSomeFeature',
+      78 => 'ToStringTest::testSomeFeature',
+      79 => 'ToStringTest::test4',
+      80 => 'ToStringTest::test5',
+      81 => 'Utf8StringToAsciiStringTest::testSomeFeature',
+      82 => 'Utf8StringToAsciiStringTest::test1',
+      83 => 'Utf8StringToAsciiStringTest::test2',
+      84 => 'Utf8StringToAsciiStringTest::test3',
+      85 => 'Utf8StringToAsciiStringTest::test4',
+      86 => 'Utf8StringToAsciiStringTest::test5',
+      87 => 'TransformerTest::testSomeFeature',
     ),
     36 => 
     array (
@@ -406,17 +396,15 @@ $coverage->setData(array (
     ),
     37 => 
     array (
-      0 => 'InnerTransformerTest::testSomeFeature',
-      1 => 'InnerTransformerTest::test6',
-      2 => 'StringToDateTimeTest::testSomeFeature',
-      3 => 'StringToPhoneTest::testSomeFeature',
+      0 => 'InnerTransformerTest::test6',
+      1 => 'StringToDateTimeTest::testSomeFeature',
+      2 => 'StringToPhoneTest::testSomeFeature',
     ),
     38 => 
     array (
-      0 => 'InnerTransformerTest::testSomeFeature',
-      1 => 'InnerTransformerTest::test6',
-      2 => 'StringToDateTimeTest::testSomeFeature',
-      3 => 'StringToPhoneTest::testSomeFeature',
+      0 => 'InnerTransformerTest::test6',
+      1 => 'StringToDateTimeTest::testSomeFeature',
+      2 => 'StringToPhoneTest::testSomeFeature',
     ),
     40 => NULL,
     50 => 
@@ -430,19 +418,19 @@ $coverage->setData(array (
   ),
   '/home/george/www/transformers/src/Transformer/AsEmpty.php' => 
   array (
-    16 => 
-    array (
-      0 => 'AsEmptyTest::testSomeFeature',
-    ),
     17 => 
     array (
       0 => 'AsEmptyTest::testSomeFeature',
     ),
-    20 => 
+    18 => 
     array (
       0 => 'AsEmptyTest::testSomeFeature',
     ),
-    21 => NULL,
+    21 => 
+    array (
+      0 => 'AsEmptyTest::testSomeFeature',
+    ),
+    22 => NULL,
   ),
   '/home/george/www/transformers/src/Transformer/BoolToMixed.php' => 
   array (
@@ -555,31 +543,101 @@ $coverage->setData(array (
   ),
   '/home/george/www/transformers/src/Transformer/ChainTransformer.php' => 
   array (
+    20 => 
+    array (
+      0 => 'ChainTransformerTest::testSomeFeature',
+    ),
+    21 => 
+    array (
+      0 => 'ChainTransformerTest::testSomeFeature',
+    ),
+    22 => 
+    array (
+      0 => 'ChainTransformerTest::testSomeFeature',
+    ),
     26 => 
     array (
       0 => 'ChainTransformerTest::testSomeFeature',
     ),
-    27 => 
+    27 => NULL,
+  ),
+  '/home/george/www/transformers/src/TransformerContainer.php' => 
+  array (
+    28 => 
     array (
       0 => 'ChainTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::testSomeFeature',
+      2 => 'InnerTransformerTest::test1',
+      3 => 'InnerTransformerTest::test2',
+      4 => 'InnerTransformerTest::test3',
+      5 => 'InnerTransformerTest::test4',
+      6 => 'InnerTransformerTest::test5',
+      7 => 'InnerTransformerTest::test6',
     ),
-    31 => 
+    29 => 
     array (
       0 => 'ChainTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::testSomeFeature',
+      2 => 'InnerTransformerTest::test1',
+      3 => 'InnerTransformerTest::test2',
+      4 => 'InnerTransformerTest::test3',
+      5 => 'InnerTransformerTest::test4',
+      6 => 'InnerTransformerTest::test5',
+      7 => 'InnerTransformerTest::test6',
     ),
-    32 => 
+    41 => 
     array (
       0 => 'ChainTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::testSomeFeature',
+      2 => 'InnerTransformerTest::test1',
+      3 => 'InnerTransformerTest::test2',
+      4 => 'InnerTransformerTest::test3',
+      5 => 'InnerTransformerTest::test4',
+      6 => 'InnerTransformerTest::test5',
+      7 => 'InnerTransformerTest::test6',
     ),
-    33 => 
+    42 => 
+    array (
+    ),
+    44 => 
     array (
       0 => 'ChainTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::testSomeFeature',
+      2 => 'InnerTransformerTest::test1',
+      3 => 'InnerTransformerTest::test2',
+      4 => 'InnerTransformerTest::test3',
+      5 => 'InnerTransformerTest::test4',
+      6 => 'InnerTransformerTest::test5',
+      7 => 'InnerTransformerTest::test6',
     ),
-    37 => 
+    45 => 
     array (
       0 => 'ChainTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::testSomeFeature',
+      2 => 'InnerTransformerTest::test6',
     ),
-    38 => NULL,
+    46 => 
+    array (
+      0 => 'ChainTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::testSomeFeature',
+    ),
+    49 => 
+    array (
+      0 => 'ChainTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::testSomeFeature',
+      2 => 'InnerTransformerTest::test6',
+    ),
+    50 => 
+    array (
+      0 => 'InnerTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::test6',
+    ),
+    51 => 
+    array (
+      0 => 'InnerTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::test6',
+    ),
+    53 => NULL,
   ),
   '/home/george/www/transformers/src/TransformerContainerInterface.php' => 
   array (
@@ -755,91 +813,71 @@ $coverage->setData(array (
   ),
   '/home/george/www/transformers/src/Transformer/InnerTransformer.php' => 
   array (
+    23 => 
+    array (
+      0 => 'InnerTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::test6',
+    ),
+    24 => 
+    array (
+      0 => 'InnerTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::test6',
+    ),
+    25 => 
+    array (
+      0 => 'InnerTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::test6',
+    ),
+    26 => 
+    array (
+      0 => 'InnerTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::test6',
+    ),
+    27 => 
+    array (
+      0 => 'InnerTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::test6',
+    ),
+    29 => 
+    array (
+      0 => 'InnerTransformerTest::testSomeFeature',
+      1 => 'InnerTransformerTest::test6',
+    ),
     30 => 
     array (
       0 => 'InnerTransformerTest::testSomeFeature',
-      1 => 'InnerTransformerTest::test1',
-      2 => 'InnerTransformerTest::test2',
-      3 => 'InnerTransformerTest::test3',
-      4 => 'InnerTransformerTest::test4',
-      5 => 'InnerTransformerTest::test5',
-      6 => 'InnerTransformerTest::test6',
+      1 => 'InnerTransformerTest::test6',
     ),
     31 => 
     array (
       0 => 'InnerTransformerTest::testSomeFeature',
-      1 => 'InnerTransformerTest::test1',
-      2 => 'InnerTransformerTest::test2',
-      3 => 'InnerTransformerTest::test3',
-      4 => 'InnerTransformerTest::test4',
-      5 => 'InnerTransformerTest::test5',
-      6 => 'InnerTransformerTest::test6',
     ),
-    35 => 
+    32 => 
     array (
-      0 => 'InnerTransformerTest::testSomeFeature',
-      1 => 'InnerTransformerTest::test6',
+      0 => 'InnerTransformerTest::test6',
     ),
-    36 => 
+    33 => 
     array (
-      0 => 'InnerTransformerTest::testSomeFeature',
-      1 => 'InnerTransformerTest::test6',
+      0 => 'InnerTransformerTest::test6',
     ),
-    37 => 
+    34 => 
     array (
-      0 => 'InnerTransformerTest::testSomeFeature',
-      1 => 'InnerTransformerTest::test6',
+      0 => 'InnerTransformerTest::test6',
     ),
     38 => 
     array (
       0 => 'InnerTransformerTest::testSomeFeature',
-      1 => 'InnerTransformerTest::test6',
     ),
     39 => 
-    array (
-      0 => 'InnerTransformerTest::testSomeFeature',
-      1 => 'InnerTransformerTest::test6',
-    ),
-    41 => 
-    array (
-      0 => 'InnerTransformerTest::testSomeFeature',
-      1 => 'InnerTransformerTest::test6',
-    ),
-    42 => 
-    array (
-      0 => 'InnerTransformerTest::testSomeFeature',
-      1 => 'InnerTransformerTest::test6',
-    ),
-    43 => 
     array (
       0 => 'InnerTransformerTest::testSomeFeature',
     ),
     44 => 
     array (
-      0 => 'InnerTransformerTest::test6',
-    ),
-    45 => 
-    array (
-      0 => 'InnerTransformerTest::test6',
-    ),
-    46 => 
-    array (
-      0 => 'InnerTransformerTest::test6',
-    ),
-    50 => 
-    array (
       0 => 'InnerTransformerTest::testSomeFeature',
     ),
-    51 => 
-    array (
-      0 => 'InnerTransformerTest::testSomeFeature',
-    ),
-    56 => 
-    array (
-      0 => 'InnerTransformerTest::testSomeFeature',
-    ),
-    57 => NULL,
-    61 => 
+    45 => NULL,
+    49 => 
     array (
       0 => 'InnerTransformerTest::testSomeFeature',
       1 => 'InnerTransformerTest::test1',
@@ -849,7 +887,7 @@ $coverage->setData(array (
       5 => 'InnerTransformerTest::test5',
       6 => 'InnerTransformerTest::test6',
     ),
-    62 => 
+    50 => 
     array (
       0 => 'InnerTransformerTest::testSomeFeature',
       1 => 'InnerTransformerTest::test6',
@@ -1015,17 +1053,17 @@ $coverage->setData(array (
       0 => 'StringToPhoneTest::testSomeFeature',
     ),
   ),
-  '/home/george/www/transformers/src/Transformer/StringToScreamingCase.php' => 
+  '/home/george/www/transformers/src/Transformer/StringToScreamingSnakeCase.php' => 
   array (
     18 => 
     array (
       0 => 'StringToScreamingCaseTest::testSomeFeature',
     ),
-    20 => 
+    19 => 
     array (
       0 => 'StringToScreamingCaseTest::testSomeFeature',
     ),
-    21 => 
+    20 => 
     array (
       0 => 'StringToScreamingCaseTest::testSomeFeature',
     ),
@@ -1037,8 +1075,20 @@ $coverage->setData(array (
     array (
       0 => 'StringToScreamingCaseTest::testSomeFeature',
     ),
-    24 => NULL,
+    24 => 
+    array (
+      0 => 'StringToScreamingCaseTest::testSomeFeature',
+    ),
+    26 => 
+    array (
+      0 => 'StringToScreamingCaseTest::testSomeFeature',
+    ),
     28 => 
+    array (
+      0 => 'StringToScreamingCaseTest::testSomeFeature',
+    ),
+    29 => NULL,
+    33 => 
     array (
       0 => 'StringToScreamingCaseTest::testSomeFeature',
       1 => 'StringToScreamingCaseTest::test1',
@@ -1047,7 +1097,7 @@ $coverage->setData(array (
       4 => 'StringToScreamingCaseTest::test4',
       5 => 'StringToScreamingCaseTest::test5',
     ),
-    29 => 
+    34 => 
     array (
       0 => 'StringToScreamingCaseTest::testSomeFeature',
     ),
@@ -1162,10 +1212,6 @@ $coverage->setData(array (
   ),
   '/home/george/www/transformers/src/Transformer/ToRange.php' => 
   array (
-    28 => 
-    array (
-      0 => 'ToRangeTest::testSomeFeature',
-    ),
     29 => 
     array (
       0 => 'ToRangeTest::testSomeFeature',
@@ -1174,7 +1220,7 @@ $coverage->setData(array (
     array (
       0 => 'ToRangeTest::testSomeFeature',
     ),
-    34 => 
+    31 => 
     array (
       0 => 'ToRangeTest::testSomeFeature',
     ),
@@ -1182,7 +1228,7 @@ $coverage->setData(array (
     array (
       0 => 'ToRangeTest::testSomeFeature',
     ),
-    37 => 
+    36 => 
     array (
       0 => 'ToRangeTest::testSomeFeature',
     ),
@@ -1190,11 +1236,15 @@ $coverage->setData(array (
     array (
       0 => 'ToRangeTest::testSomeFeature',
     ),
-    41 => 
+    39 => 
     array (
       0 => 'ToRangeTest::testSomeFeature',
     ),
-    42 => NULL,
+    42 => 
+    array (
+      0 => 'ToRangeTest::testSomeFeature',
+    ),
+    43 => NULL,
   ),
   '/home/george/www/transformers/src/Transformer/ToString.php' => 
   array (
@@ -1521,6 +1571,11 @@ $coverage->setTests(array (
     'size' => 'unknown',
     'status' => 0,
   ),
+  'InnerTransformerTest::test7' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
   'StringToCamelCaseTest::testSomeFeature' => 
   array (
     'size' => 'unknown',
@@ -1822,11 +1877,12 @@ $filter = $coverage->filter();
 $filter->setWhitelistedFiles(array (
   '/home/george/www/transformers/src/Transformer.php' => true,
   '/home/george/www/transformers/src/TransformerContainerInterface.php' => true,
+  '/home/george/www/transformers/src/TransformerContainer.php' => true,
   '/home/george/www/transformers/src/Exception/TransformationException.php' => true,
+  '/home/george/www/transformers/src/Transformer/StringToScreamingSnakeCase.php' => true,
   '/home/george/www/transformers/src/Transformer/ToRange.php' => true,
   '/home/george/www/transformers/src/Transformer/ToFloat.php' => true,
   '/home/george/www/transformers/src/Transformer/StringToPhone.php' => true,
-  '/home/george/www/transformers/src/Transformer/StringToScreamingCase.php' => true,
   '/home/george/www/transformers/src/Transformer/StringToDateTime.php' => true,
   '/home/george/www/transformers/src/Transformer/ToArray.php' => true,
   '/home/george/www/transformers/src/Transformer/BoolToMixed.php' => true,

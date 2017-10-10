@@ -9,27 +9,12 @@ namespace NewInventor\Transformers\Transformer;
 
 
 use NewInventor\Transformers\Exception\TransformationException;
-use NewInventor\Transformers\Transformer;
-use NewInventor\Transformers\TransformerContainerInterface;
-use NewInventor\Transformers\TransformerInterface;
+use NewInventor\Transformers\TransformerContainer;
 use NewInventor\TypeChecker\Exception\TypeException;
 use NewInventor\TypeChecker\TypeChecker;
 
-class InnerTransformer extends Transformer implements TransformerContainerInterface
+class InnerTransformer extends TransformerContainer
 {
-    /** @var TransformerInterface[][] */
-    protected $transformers;
-    
-    /**
-     * ArrayNormalizer constructor.
-     *
-     * @param array $transformers
-     */
-    public function __construct(TransformerInterface ...$transformers)
-    {
-        $this->transformers = $transformers;
-    }
-    
     protected function transformInputValue($value)
     {
         if (!empty($this->transformers)) {
