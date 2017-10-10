@@ -40,3 +40,7 @@ $res = $transformer->transform($value);
 
 If you transform value with wrong type then transformer throw \NewInventor\TypeChecker\Exception\TypeException
 If transformer can not transform value it throw \NewInventor\Transformers\Exception\TransformationException
+
+### Links
+* To transform complex objects/arrays use https://github.com/new-inventor/data-structure
+* To implement property bags use https://github.com/new-inventor/property-bag
