@@ -1,0 +1,24 @@
+{
+  "name": "new-inventor/transformers",
+  "license": "MIT",
+  "description": "Property bag with automatic value normalizing and formatting",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.0",
+    "new-inventor/php-type-checker": "^5.0"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "NewInventor\\Transformers\\": "src/",
+      "TestsTransformers\\": "tests/classes"
+    }
+  },
+  "require-dev": {
+    "codeception/codeception": "2.3.*",
+    "phpunit/phpunit": "^5.7"
+  }
+}
