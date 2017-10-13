@@ -8,14 +8,8 @@
 namespace NewInventor\Transformers\Exception;
 
 
-use NewInventor\Transformers\Transformer\StringToScreamingSnakeCase;
-
-class TransformationContainerException extends \InvalidArgumentException implements ExceptionInterface
+class TransformationContainerException extends AbstractException
 {
-    /** @var string */
-    protected $className;
-    /** @var string */
-    protected $stringCode;
     /** @var array */
     protected $inner;
     
@@ -28,26 +22,8 @@ class TransformationContainerException extends \InvalidArgumentException impleme
      */
     public function __construct(string $className, array $inner, string $message)
     {
-        $this->className = $className;
-        $this->stringCode = StringToScreamingSnakeCase::make()->transform($className);
         $this->inner = $inner;
         parent::__construct($message);
-    }
-    
-    /**
-     * @return string
-     */
-    public function getClassName(): string
-    {
-        return $this->className;
-    }
-    
-    /**
-     * @return string
-     */
-    public function getStringCode(): string
-    {
-        return $this->stringCode;
     }
     
     /**
