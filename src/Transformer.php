@@ -34,13 +34,14 @@ abstract class Transformer implements TransformerInterface
         if ($value === null) {
             return null;
         }
+        $thisClass = get_class($this);
         try {
             $this->validateInputTypes($value);
             return $this->transformInputValue($value);
         } catch (TypeException $e) {
-            throw new TransformerTypeException(get_class($this), 'Type of value invalid');
+            throw new TransformerTypeException($thisClass, 'Type of value invalid');
         } catch (\Throwable $e) {
-            throw new TransformationException(get_class($this), 'Transformer can not transform value');
+            throw new TransformationException($thisClass, 'Transformer can not transform value');
         }
     }
     

@@ -23,7 +23,7 @@ class InnerTransformer extends TransformerContainer
                     try {
                         $value[$key] = $transformer->transform($value[$key]);
                     } catch (\Throwable $e) {
-                        $this->errors[] = $e;
+                        $this->errors[$key] = $e;
                     }
                 }
                 if (array_key_exists(++$i, $this->transformers)) {

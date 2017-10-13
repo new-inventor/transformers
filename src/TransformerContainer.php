@@ -46,6 +46,7 @@ abstract class TransformerContainer extends Transformer implements TransformerCo
         if ($value === null) {
             return null;
         }
+        $thisClass = get_class($this);
         try {
             $this->validateInputTypes($value);
             if ($this->transformers === []) {
@@ -54,7 +55,7 @@ abstract class TransformerContainer extends Transformer implements TransformerCo
             $res = $this->transformInputValue($value);
             if ($this->errors !== []) {
                 throw new TransformationContainerException(
-                    get_class($this),
+                    $thisClass,
                     $this->errors,
                     'Transformer can not transform value'
                 );
@@ -62,7 +63,7 @@ abstract class TransformerContainer extends Transformer implements TransformerCo
             
             return $res;
         } catch (TypeException $e) {
-            throw new TransformerTypeException(get_class($this), 'Type of value invalid');
+            throw new TransformerTypeException($thisClass, 'Type of value invalid');
         }
     }
 }
