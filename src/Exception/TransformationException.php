@@ -10,7 +10,7 @@ namespace NewInventor\Transformers\Exception;
 
 use NewInventor\Transformers\Transformer\StringToScreamingSnakeCase;
 
-class TransformationException extends \InvalidArgumentException
+class TransformationException extends \InvalidArgumentException implements ExceptionInterface
 {
     /** @var string */
     protected $className;
@@ -28,5 +28,21 @@ class TransformationException extends \InvalidArgumentException
         $this->className = $className;
         $this->stringCode = StringToScreamingSnakeCase::make()->transform($className);
         parent::__construct($message);
+    }
+    
+    /**
+     * @return string
+     */
+    public function getClassName(): string
+    {
+        return $this->className;
+    }
+    
+    /**
+     * @return string
+     */
+    public function getStringCode(): string
+    {
+        return $this->stringCode;
     }
 }

@@ -723,6 +723,9 @@ $coverage->setData(array (
       5 => 'ToRangeTest::testSomeFeature',
     ),
   ),
+  '/home/george/www/transformers/src/Exception/ExceptionInterface.php' => 
+  array (
+  ),
   '/home/george/www/transformers/src/Exception/TypeException.php' => 
   array (
     28 => 
@@ -1025,6 +1028,14 @@ $coverage->setData(array (
       70 => 'Utf8StringToAsciiStringTest::test4',
       71 => 'Utf8StringToAsciiStringTest::test5',
     ),
+    38 => 
+    array (
+    ),
+    39 => NULL,
+    46 => 
+    array (
+    ),
+    47 => NULL,
   ),
   '/home/george/www/transformers/src/Transformer/StringToScreamingSnakeCase.php' => 
   array (
@@ -2073,13 +2084,31 @@ $coverage->setData(array (
       1 => 'InnerTransformerTest::testSomeFeature',
       2 => 'InnerTransformerTest::test6',
     ),
+    57 => 
+    array (
+      0 => 'ChainTransformerTest::testSometest',
+      1 => 'InnerTransformerTest::testSomeFeature',
+      2 => 'InnerTransformerTest::test6',
+    ),
     58 => 
+    array (
+      0 => 'ChainTransformerTest::testSometest',
+      1 => 'InnerTransformerTest::testSomeFeature',
+      2 => 'InnerTransformerTest::test6',
+    ),
+    59 => 
+    array (
+      0 => 'ChainTransformerTest::testSometest',
+      1 => 'InnerTransformerTest::testSomeFeature',
+      2 => 'InnerTransformerTest::test6',
+    ),
+    63 => 
     array (
       0 => 'ChainTransformerTest::testSomeFeature',
       1 => 'ChainTransformerTest::testSometest',
       2 => 'InnerTransformerTest::testSomeFeature',
     ),
-    59 => 
+    64 => 
     array (
       0 => 'ChainTransformerTest::testSometest',
       1 => 'InnerTransformerTest::testSomeFeature',
@@ -2090,7 +2119,7 @@ $coverage->setData(array (
       6 => 'InnerTransformerTest::test5',
       7 => 'InnerTransformerTest::test6',
     ),
-    60 => 
+    65 => 
     array (
       0 => 'InnerTransformerTest::test1',
       1 => 'InnerTransformerTest::test2',
@@ -2098,7 +2127,7 @@ $coverage->setData(array (
       3 => 'InnerTransformerTest::test4',
       4 => 'InnerTransformerTest::test5',
     ),
-    62 => NULL,
+    67 => NULL,
   ),
   '/home/george/www/transformers/src/TransformerContainerInterface.php' => 
   array (
@@ -2133,6 +2162,14 @@ $coverage->setData(array (
       2 => 'StringToDateTimeTest::testSomeFeature',
       3 => 'StringToPhoneTest::testSomeFeature',
     ),
+    38 => 
+    array (
+    ),
+    39 => NULL,
+    46 => 
+    array (
+    ),
+    47 => NULL,
   ),
   '/home/george/www/transformers/src/Exception/TransformationContainerException.php' => 
   array (
@@ -3341,6 +3378,7 @@ $filter->setWhitelistedFiles(array (
   '/home/george/www/transformers/src/Exception/TransformationException.php' => true,
   '/home/george/www/transformers/src/Exception/TransformationContainerException.php' => true,
   '/home/george/www/transformers/src/Exception/TypeException.php' => true,
+  '/home/george/www/transformers/src/Exception/ExceptionInterface.php' => true,
   '/home/george/www/transformers/src/Transformer/StringToScreamingSnakeCase.php' => true,
   '/home/george/www/transformers/src/Transformer/ToRange.php' => true,
   '/home/george/www/transformers/src/Transformer/ToFloat.php' => true,

@@ -10,7 +10,7 @@ namespace NewInventor\Transformers\Exception;
 
 use NewInventor\Transformers\Transformer\StringToScreamingSnakeCase;
 
-class TransformationContainerException extends \InvalidArgumentException
+class TransformationContainerException extends \InvalidArgumentException implements ExceptionInterface
 {
     /** @var string */
     protected $className;

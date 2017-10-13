@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1507889097">
-    <project timestamp="1507889097">
+<coverage generated="1507889850">
+    <project timestamp="1507889850">
+        <file name="/home/george/www/transformers/src/Exception/ExceptionInterface.php">
+            <metrics loc="21" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0"
+                     coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </file>
         <package name="NewInventor\Transformers\Exception">
             <file name="/home/george/www/transformers/src/Exception/TransformationContainerException.php">
                 <class name="TransformationContainerException" namespace="NewInventor\Transformers\Exception">
@@ -26,29 +30,39 @@
             </file>
             <file name="/home/george/www/transformers/src/Exception/TransformationException.php">
                 <class name="TransformationException" namespace="NewInventor\Transformers\Exception">
-                    <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0"
-                             statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+                    <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0"
+                             statements="6" coveredstatements="4" elements="9" coveredelements="5"/>
                 </class>
                 <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
                 <line num="28" type="stmt" count="4"/>
                 <line num="29" type="stmt" count="4"/>
                 <line num="30" type="stmt" count="4"/>
                 <line num="31" type="stmt" count="4"/>
-                <metrics loc="31" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0"
-                         coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+                <line num="36" type="method" name="getClassName" visibility="public" complexity="1" crap="2" count="0"/>
+                <line num="38" type="stmt" count="0"/>
+                <line num="44" type="method" name="getStringCode" visibility="public" complexity="1" crap="2"
+                      count="0"/>
+                <line num="46" type="stmt" count="0"/>
+                <metrics loc="47" ncloc="28" classes="1" methods="3" coveredmethods="1" conditionals="0"
+                         coveredconditionals="0" statements="6" coveredstatements="4" elements="9" coveredelements="5"/>
             </file>
             <file name="/home/george/www/transformers/src/Exception/TypeException.php">
                 <class name="TypeException" namespace="NewInventor\Transformers\Exception">
-                    <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0"
-                             statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+                    <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0"
+                             statements="6" coveredstatements="4" elements="9" coveredelements="5"/>
                 </class>
                 <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="72"/>
                 <line num="28" type="stmt" count="72"/>
                 <line num="29" type="stmt" count="72"/>
                 <line num="30" type="stmt" count="72"/>
                 <line num="31" type="stmt" count="72"/>
-                <metrics loc="31" ncloc="18" classes="1" methods="1" coveredmethods="1" conditionals="0"
-                         coveredconditionals="0" statements="4" coveredstatements="4" elements="5" coveredelements="5"/>
+                <line num="36" type="method" name="getClassName" visibility="public" complexity="1" crap="2" count="0"/>
+                <line num="38" type="stmt" count="0"/>
+                <line num="44" type="method" name="getStringCode" visibility="public" complexity="1" crap="2"
+                      count="0"/>
+                <line num="46" type="stmt" count="0"/>
+                <metrics loc="47" ncloc="28" classes="1" methods="3" coveredmethods="1" conditionals="0"
+                         coveredconditionals="0" statements="6" coveredstatements="4" elements="9" coveredelements="5"/>
             </file>
         </package>
         <package name="NewInventor\Transformers">
@@ -78,12 +92,12 @@
             <file name="/home/george/www/transformers/src/TransformerContainer.php">
                 <class name="TransformerContainer" namespace="NewInventor\Transformers">
                     <metrics complexity="6" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0"
-                             statements="13" coveredstatements="12" elements="15" coveredelements="13"/>
+                             statements="16" coveredstatements="15" elements="18" coveredelements="16"/>
                 </class>
                 <line num="29" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="9"/>
                 <line num="31" type="stmt" count="9"/>
                 <line num="32" type="stmt" count="9"/>
-                <line num="44" type="method" name="transform" visibility="public" complexity="5" crap="5.02" count="9"/>
+                <line num="44" type="method" name="transform" visibility="public" complexity="5" crap="5.01" count="9"/>
                 <line num="46" type="stmt" count="9"/>
                 <line num="47" type="stmt" count="0"/>
                 <line num="50" type="stmt" count="9"/>
@@ -92,12 +106,15 @@
                 <line num="54" type="stmt" count="4"/>
                 <line num="55" type="stmt" count="4"/>
                 <line num="56" type="stmt" count="3"/>
+                <line num="57" type="stmt" count="3"/>
                 <line num="58" type="stmt" count="3"/>
-                <line num="59" type="stmt" count="8"/>
-                <line num="60" type="stmt" count="5"/>
-                <metrics loc="62" ncloc="39" classes="1" methods="2" coveredmethods="1" conditionals="0"
-                         coveredconditionals="0" statements="13" coveredstatements="12" elements="15"
-                         coveredelements="13"/>
+                <line num="59" type="stmt" count="3"/>
+                <line num="63" type="stmt" count="3"/>
+                <line num="64" type="stmt" count="8"/>
+                <line num="65" type="stmt" count="5"/>
+                <metrics loc="67" ncloc="44" classes="1" methods="2" coveredmethods="1" conditionals="0"
+                         coveredconditionals="0" statements="16" coveredstatements="15" elements="18"
+                         coveredelements="16"/>
             </file>
         </package>
         <package name="NewInventor\Transformers\Transformer">
@@ -543,7 +560,7 @@
             <metrics loc="20" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0"
                      coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </file>
-        <metrics files="27" loc="1046" ncloc="747" classes="25" methods="62" coveredmethods="57" conditionals="0"
-                 coveredconditionals="0" statements="214" coveredstatements="208" elements="276" coveredelements="265"/>
+        <metrics files="28" loc="1104" ncloc="782" classes="25" methods="66" coveredmethods="57" conditionals="0"
+                 coveredconditionals="0" statements="221" coveredstatements="211" elements="287" coveredelements="268"/>
     </project>
 </coverage>
