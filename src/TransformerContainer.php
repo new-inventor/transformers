@@ -63,7 +63,7 @@ abstract class TransformerContainer extends Transformer implements TransformerCo
             
             return $res;
         } catch (TypeException $e) {
-            throw new TransformerTypeException($thisClass, $e->getMessage());
+            throw new TransformerTypeException($thisClass, 'Type of value invalid.');
         }
     }
 }

@@ -1,70 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1507890259">
-    <project timestamp="1507890259">
+<coverage generated="1507893267">
+    <project timestamp="1507893267">
+        <package name="NewInventor\Transformers\Exception">
+            <file name="/home/george/www/transformers/src/Exception/AbstractException.php">
+                <class name="AbstractException" namespace="NewInventor\Transformers\Exception">
+                    <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0"
+                             statements="7" coveredstatements="5" elements="10" coveredelements="6"/>
+                </class>
+                <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="76"/>
+                <line num="28" type="stmt" count="76"/>
+                <line num="29" type="stmt" count="76"/>
+                <line num="30" type="stmt" count="76"/>
+                <line num="31" type="stmt" count="76"/>
+                <line num="32" type="stmt" count="76"/>
+                <line num="37" type="method" name="getClassName" visibility="public" complexity="1" crap="2" count="0"/>
+                <line num="39" type="stmt" count="0"/>
+                <line num="45" type="method" name="getStringCode" visibility="public" complexity="1" crap="2"
+                      count="0"/>
+                <line num="47" type="stmt" count="0"/>
+                <metrics loc="48" ncloc="29" classes="1" methods="3" coveredmethods="1" conditionals="0"
+                         coveredconditionals="0" statements="7" coveredstatements="5" elements="10"
+                         coveredelements="6"/>
+            </file>
+            <file name="/home/george/www/transformers/src/Exception/TransformationContainerException.php">
+                <class name="TransformationContainerException" namespace="NewInventor\Transformers\Exception">
+                    <metrics complexity="2" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0"
+                             statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
+                </class>
+                <line num="23" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
+                <line num="25" type="stmt" count="3"/>
+                <line num="26" type="stmt" count="3"/>
+                <line num="27" type="stmt" count="3"/>
+                <line num="32" type="method" name="getInner" visibility="public" complexity="1" crap="2" count="0"/>
+                <line num="34" type="stmt" count="0"/>
+                <metrics loc="35" ncloc="19" classes="1" methods="2" coveredmethods="1" conditionals="0"
+                         coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
+            </file>
+            <file name="/home/george/www/transformers/src/Exception/TransformationException.php">
+                <class name="TransformationException" namespace="NewInventor\Transformers\Exception">
+                    <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0"
+                             statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+                </class>
+                <metrics loc="13" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0"
+                         coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+            </file>
+            <file name="/home/george/www/transformers/src/Exception/TypeException.php">
+                <class name="TypeException" namespace="NewInventor\Transformers\Exception">
+                    <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0"
+                             statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+                </class>
+                <metrics loc="12" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0"
+                         coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+            </file>
+        </package>
         <file name="/home/george/www/transformers/src/Exception/ExceptionInterface.php">
             <metrics loc="21" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0"
                      coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </file>
-        <package name="NewInventor\Transformers\Exception">
-            <file name="/home/george/www/transformers/src/Exception/TransformationContainerException.php">
-                <class name="TransformationContainerException" namespace="NewInventor\Transformers\Exception">
-                    <metrics complexity="4" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0"
-                             statements="8" coveredstatements="5" elements="12" coveredelements="6"/>
-                </class>
-                <line num="29" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="3"/>
-                <line num="31" type="stmt" count="3"/>
-                <line num="32" type="stmt" count="3"/>
-                <line num="33" type="stmt" count="3"/>
-                <line num="34" type="stmt" count="3"/>
-                <line num="35" type="stmt" count="3"/>
-                <line num="40" type="method" name="getClassName" visibility="public" complexity="1" crap="2" count="0"/>
-                <line num="42" type="stmt" count="0"/>
-                <line num="48" type="method" name="getStringCode" visibility="public" complexity="1" crap="2"
-                      count="0"/>
-                <line num="50" type="stmt" count="0"/>
-                <line num="56" type="method" name="getInner" visibility="public" complexity="1" crap="2" count="0"/>
-                <line num="58" type="stmt" count="0"/>
-                <metrics loc="59" ncloc="35" classes="1" methods="4" coveredmethods="1" conditionals="0"
-                         coveredconditionals="0" statements="8" coveredstatements="5" elements="12"
-                         coveredelements="6"/>
-            </file>
-            <file name="/home/george/www/transformers/src/Exception/TransformationException.php">
-                <class name="TransformationException" namespace="NewInventor\Transformers\Exception">
-                    <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0"
-                             statements="6" coveredstatements="4" elements="9" coveredelements="5"/>
-                </class>
-                <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
-                <line num="28" type="stmt" count="4"/>
-                <line num="29" type="stmt" count="4"/>
-                <line num="30" type="stmt" count="4"/>
-                <line num="31" type="stmt" count="4"/>
-                <line num="36" type="method" name="getClassName" visibility="public" complexity="1" crap="2" count="0"/>
-                <line num="38" type="stmt" count="0"/>
-                <line num="44" type="method" name="getStringCode" visibility="public" complexity="1" crap="2"
-                      count="0"/>
-                <line num="46" type="stmt" count="0"/>
-                <metrics loc="47" ncloc="28" classes="1" methods="3" coveredmethods="1" conditionals="0"
-                         coveredconditionals="0" statements="6" coveredstatements="4" elements="9" coveredelements="5"/>
-            </file>
-            <file name="/home/george/www/transformers/src/Exception/TypeException.php">
-                <class name="TypeException" namespace="NewInventor\Transformers\Exception">
-                    <metrics complexity="3" methods="3" coveredmethods="1" conditionals="0" coveredconditionals="0"
-                             statements="6" coveredstatements="4" elements="9" coveredelements="5"/>
-                </class>
-                <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="72"/>
-                <line num="28" type="stmt" count="72"/>
-                <line num="29" type="stmt" count="72"/>
-                <line num="30" type="stmt" count="72"/>
-                <line num="31" type="stmt" count="72"/>
-                <line num="36" type="method" name="getClassName" visibility="public" complexity="1" crap="2" count="0"/>
-                <line num="38" type="stmt" count="0"/>
-                <line num="44" type="method" name="getStringCode" visibility="public" complexity="1" crap="2"
-                      count="0"/>
-                <line num="46" type="stmt" count="0"/>
-                <metrics loc="47" ncloc="28" classes="1" methods="3" coveredmethods="1" conditionals="0"
-                         coveredconditionals="0" statements="6" coveredstatements="4" elements="9" coveredelements="5"/>
-            </file>
-        </package>
         <package name="NewInventor\Transformers">
             <file name="/home/george/www/transformers/src/Transformer.php">
                 <class name="Transformer" namespace="NewInventor\Transformers">
@@ -95,26 +87,26 @@
                     <metrics complexity="6" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0"
                              statements="17" coveredstatements="16" elements="19" coveredelements="17"/>
                 </class>
-                <line num="30" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="9"/>
+                <line num="29" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="9"/>
+                <line num="31" type="stmt" count="9"/>
                 <line num="32" type="stmt" count="9"/>
-                <line num="33" type="stmt" count="9"/>
-                <line num="45" type="method" name="transform" visibility="public" complexity="5" crap="5.01" count="9"/>
-                <line num="47" type="stmt" count="9"/>
-                <line num="48" type="stmt" count="0"/>
-                <line num="50" type="stmt" count="9"/>
-                <line num="52" type="stmt" count="9"/>
-                <line num="53" type="stmt" count="4"/>
-                <line num="54" type="stmt" count="2"/>
+                <line num="44" type="method" name="transform" visibility="public" complexity="5" crap="5.01" count="9"/>
+                <line num="46" type="stmt" count="9"/>
+                <line num="47" type="stmt" count="0"/>
+                <line num="49" type="stmt" count="9"/>
+                <line num="51" type="stmt" count="9"/>
+                <line num="52" type="stmt" count="4"/>
+                <line num="53" type="stmt" count="2"/>
+                <line num="55" type="stmt" count="4"/>
                 <line num="56" type="stmt" count="4"/>
-                <line num="57" type="stmt" count="4"/>
+                <line num="57" type="stmt" count="3"/>
                 <line num="58" type="stmt" count="3"/>
                 <line num="59" type="stmt" count="3"/>
                 <line num="60" type="stmt" count="3"/>
-                <line num="61" type="stmt" count="3"/>
-                <line num="65" type="stmt" count="3"/>
-                <line num="66" type="stmt" count="8"/>
-                <line num="67" type="stmt" count="5"/>
-                <metrics loc="69" ncloc="46" classes="1" methods="2" coveredmethods="1" conditionals="0"
+                <line num="64" type="stmt" count="3"/>
+                <line num="65" type="stmt" count="8"/>
+                <line num="66" type="stmt" count="5"/>
+                <metrics loc="68" ncloc="45" classes="1" methods="2" coveredmethods="1" conditionals="0"
                          coveredconditionals="0" statements="17" coveredstatements="16" elements="19"
                          coveredelements="17"/>
             </file>
@@ -562,7 +554,7 @@
             <metrics loc="20" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0"
                      coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </file>
-        <metrics files="28" loc="1107" ncloc="785" classes="25" methods="66" coveredmethods="57" conditionals="0"
-                 coveredconditionals="0" statements="223" coveredstatements="213" elements="289" coveredelements="270"/>
+        <metrics files="29" loc="1061" ncloc="756" classes="24" methods="61" coveredmethods="56" conditionals="0"
+                 coveredconditionals="0" statements="214" coveredstatements="208" elements="275" coveredelements="264"/>
     </project>
 </coverage>

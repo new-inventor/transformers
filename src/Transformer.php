@@ -25,9 +25,9 @@ abstract class Transformer implements TransformerInterface
      *
      * @return mixed
      * @throws TransformerTypeException
-     * @throws \NewInventor\Transformers\Exception\TransformationException
+     * @throws TransformationException
      * @throws \Throwable
-     * @throws \NewInventor\TypeChecker\Exception\TypeException
+     * @throws TypeException
      */
     public function transform($value)
     {
@@ -39,7 +39,7 @@ abstract class Transformer implements TransformerInterface
             $this->validateInputTypes($value);
             return $this->transformInputValue($value);
         } catch (TypeException $e) {
-            throw new TransformerTypeException($thisClass, $e->getMessage());
+            throw new TransformerTypeException($thisClass, 'Type of value invalid.');
         } catch (\Throwable $e) {
             throw new TransformationException($thisClass, $e->getMessage());
         }
