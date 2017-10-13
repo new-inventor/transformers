@@ -8,10 +8,11 @@
 namespace NewInventor\Transformers\Transformer;
 
 
+use NewInventor\Transformers\ArrayTransformerContainerInterface;
 use NewInventor\Transformers\TransformerContainer;
 use NewInventor\TypeChecker\TypeChecker;
 
-class InnerTransformer extends TransformerContainer
+class InnerTransformer extends TransformerContainer implements ArrayTransformerContainerInterface
 {
     protected function transformInputValue($value)
     {
