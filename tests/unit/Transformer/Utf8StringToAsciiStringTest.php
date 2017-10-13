@@ -1,7 +1,7 @@
 <?php
 
+use NewInventor\Transformers\Exception\TypeException;
 use NewInventor\Transformers\Transformer\Utf8StringToAsciiString;
-use NewInventor\TypeChecker\Exception\TypeException;
 
 class Utf8StringToAsciiStringTest extends \Codeception\Test\Unit
 {

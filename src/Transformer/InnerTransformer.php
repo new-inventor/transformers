@@ -8,9 +8,7 @@
 namespace NewInventor\Transformers\Transformer;
 
 
-use NewInventor\Transformers\Exception\TransformationException;
 use NewInventor\Transformers\TransformerContainer;
-use NewInventor\TypeChecker\Exception\TypeException;
 use NewInventor\TypeChecker\TypeChecker;
 
 class InnerTransformer extends TransformerContainer
@@ -24,12 +22,8 @@ class InnerTransformer extends TransformerContainer
                 if ($transformer !== null) {
                     try {
                         $value[$key] = $transformer->transform($value[$key]);
-                    } catch (TypeException $e) {
-                        throw new \InvalidArgumentException("Type exception in element $key: \n{$e->getMessage()}");
-                    } catch (TransformationException $e) {
-                        throw new \InvalidArgumentException(
-                            "Transformation exception in element $key: \n{$e->getMessage()}"
-                        );
+                    } catch (\Throwable $e) {
+                        $this->errors[] = $e;
                     }
                 }
                 if (array_key_exists(++$i, $this->transformers)) {

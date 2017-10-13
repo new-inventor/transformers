@@ -1,11 +1,11 @@
 <?php
 
-use NewInventor\Transformers\Exception\TransformationException;
+use NewInventor\Transformers\Exception\TransformationContainerException;
+use NewInventor\Transformers\Exception\TypeException;
 use NewInventor\Transformers\Transformer\BoolToMixed;
 use NewInventor\Transformers\Transformer\InnerTransformer;
 use NewInventor\Transformers\Transformer\StringToDateTime;
 use NewInventor\Transformers\Transformer\StringToUpperCase;
-use NewInventor\TypeChecker\Exception\TypeException;
 
 class InnerTransformerTest extends \Codeception\Test\Unit
 {
@@ -33,7 +33,7 @@ class InnerTransformerTest extends \Codeception\Test\Unit
         $this->assertSame(['false', 'QWE'], $transformer->transform([false, 'qWe']));
         $transformer = new InnerTransformer();
         $this->assertSame(['123'], $transformer->transform(['123']));
-        $this->expectException(TransformationException::class);
+        $this->expectException(TransformationContainerException::class);
         $transformer = new InnerTransformer(
             new BoolToMixed('true', 'false'),
             new StringToUpperCase()
@@ -81,7 +81,7 @@ class InnerTransformerTest extends \Codeception\Test\Unit
         $transformer = new InnerTransformer(
             new StringToDateTime('d.m.Y')
         );
-        $this->expectException(TransformationException::class);
+        $this->expectException(TransformationContainerException::class);
         $transformer->transform(['12.12.2017 12:12:12']);
     }
     

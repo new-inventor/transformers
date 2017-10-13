@@ -1,7 +1,7 @@
 <?php
 
+use NewInventor\Transformers\Exception\TypeException;
 use NewInventor\Transformers\Transformer\StringToCamelCase;
-use NewInventor\TypeChecker\Exception\TypeException;
 
 class StringToCamelCaseTest extends \Codeception\Test\Unit
 {

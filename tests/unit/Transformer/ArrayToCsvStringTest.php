@@ -1,7 +1,7 @@
 <?php
 
+use NewInventor\Transformers\Exception\TypeException;
 use NewInventor\Transformers\Transformer\ArrayToCsvString;
-use NewInventor\TypeChecker\Exception\TypeException;
 
 class ArrayToCsvStringTest extends \Codeception\Test\Unit
 {

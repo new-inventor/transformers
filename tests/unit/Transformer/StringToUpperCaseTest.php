@@ -1,7 +1,7 @@
 <?php
 
+use NewInventor\Transformers\Exception\TypeException;
 use NewInventor\Transformers\Transformer\StringToUpperCase;
-use NewInventor\TypeChecker\Exception\TypeException;
 
 class StringToUpperCaseTest extends \Codeception\Test\Unit
 {

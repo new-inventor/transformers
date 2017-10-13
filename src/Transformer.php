@@ -9,6 +9,8 @@ namespace NewInventor\Transformers;
 
 
 use NewInventor\Transformers\Exception\TransformationException;
+use NewInventor\Transformers\Exception\TypeException as TransformerTypeException;
+use NewInventor\TypeChecker\Exception\TypeException;
 
 abstract class Transformer implements TransformerInterface
 {
@@ -22,6 +24,7 @@ abstract class Transformer implements TransformerInterface
      * @param mixed $value
      *
      * @return mixed
+     * @throws TransformerTypeException
      * @throws \NewInventor\Transformers\Exception\TransformationException
      * @throws \Throwable
      * @throws \NewInventor\TypeChecker\Exception\TypeException
@@ -31,11 +34,13 @@ abstract class Transformer implements TransformerInterface
         if ($value === null) {
             return null;
         }
-        $this->validateInputTypes($value);
         try {
+            $this->validateInputTypes($value);
             return $this->transformInputValue($value);
+        } catch (TypeException $e) {
+            throw new TransformerTypeException(get_class($this), 'Type of value invalid');
         } catch (\Throwable $e) {
-            throw new TransformationException(get_class($this), $e, $e->getMessage());
+            throw new TransformationException(get_class($this), 'Transformer can not transform value');
         }
     }
     

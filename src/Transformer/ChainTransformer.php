@@ -16,7 +16,11 @@ class ChainTransformer extends TransformerContainer
     {
         if (!empty($this->transformers)) {
             foreach ($this->transformers as $transformer) {
-                $value = $transformer->transform($value);
+                try {
+                    $value = $transformer->transform($value);
+                } catch (\Throwable $e) {
+                    $this->errors[] = $e;
+                }
             }
         }
         

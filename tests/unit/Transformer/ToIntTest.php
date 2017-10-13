@@ -1,7 +1,7 @@
 <?php
 
+use NewInventor\Transformers\Exception\TypeException;
 use NewInventor\Transformers\Transformer\ToInt;
-use NewInventor\TypeChecker\Exception\TypeException;
 
 class ToIntTest extends \Codeception\Test\Unit
 {

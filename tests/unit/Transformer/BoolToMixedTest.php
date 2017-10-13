@@ -1,7 +1,7 @@
 <?php
 
+use NewInventor\Transformers\Exception\TypeException;
 use NewInventor\Transformers\Transformer\BoolToMixed;
-use NewInventor\TypeChecker\Exception\TypeException;
 
 class BoolToMixedTest extends \Codeception\Test\Unit
 {

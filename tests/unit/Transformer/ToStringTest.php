@@ -1,7 +1,7 @@
 <?php
 
+use NewInventor\Transformers\Exception\TypeException;
 use NewInventor\Transformers\Transformer\ToString;
-use NewInventor\TypeChecker\Exception\TypeException;
 use TestsTransformers\TestStringable;
 
 class ToStringTest extends \Codeception\Test\Unit

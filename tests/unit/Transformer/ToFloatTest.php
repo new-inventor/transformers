@@ -1,7 +1,7 @@
 <?php
 
+use NewInventor\Transformers\Exception\TypeException;
 use NewInventor\Transformers\Transformer\ToFloat;
-use NewInventor\TypeChecker\Exception\TypeException;
 
 class ToFloatTest extends \Codeception\Test\Unit
 {

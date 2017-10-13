@@ -1,7 +1,7 @@
 <?php
 
+use NewInventor\Transformers\Exception\TypeException;
 use NewInventor\Transformers\Transformer\DateTimeToString;
-use NewInventor\TypeChecker\Exception\TypeException;
 
 class DateTimeToStringTest extends \Codeception\Test\Unit
 {

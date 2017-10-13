@@ -1,8 +1,8 @@
 <?php
 /**
- * Project: TP messaging service
+ * Project: transformers
  * User: george
- * Date: 31.08.17
+ * Date: 13.10.17
  */
 
 namespace NewInventor\Transformers\Exception;
@@ -10,7 +10,7 @@ namespace NewInventor\Transformers\Exception;
 
 use NewInventor\Transformers\Transformer\StringToScreamingSnakeCase;
 
-class TransformationException extends \InvalidArgumentException
+class TypeException extends \InvalidArgumentException
 {
     /** @var string */
     protected $className;

@@ -1,7 +1,7 @@
 <?php
 
+use NewInventor\Transformers\Exception\TypeException;
 use NewInventor\Transformers\Transformer\StringToScreamingSnakeCase;
-use NewInventor\TypeChecker\Exception\TypeException;
 
 class StringToScreamingCaseTest extends \Codeception\Test\Unit
 {

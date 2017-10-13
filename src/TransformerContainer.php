@@ -8,10 +8,14 @@
 namespace NewInventor\Transformers;
 
 
+use NewInventor\Transformers\Exception\TransformationContainerException;
 use NewInventor\Transformers\Exception\TransformationException;
+use NewInventor\Transformers\Exception\TypeException as TransformerTypeException;
+use NewInventor\TypeChecker\Exception\TypeException;
 
 abstract class TransformerContainer extends Transformer implements TransformerContainerInterface
 {
+    protected $errors = [];
     /** @var TransformerInterface[] */
     protected $transformers;
     
@@ -31,23 +35,34 @@ abstract class TransformerContainer extends Transformer implements TransformerCo
      * @param mixed $value
      *
      * @return mixed
-     * @throws \NewInventor\Transformers\Exception\TransformationException
+     * @throws TransformationContainerException
+     * @throws TransformerTypeException
+     * @throws TransformationException
      * @throws \Throwable
-     * @throws \NewInventor\TypeChecker\Exception\TypeException
+     * @throws TypeException
      */
     public function transform($value)
     {
         if ($value === null) {
             return null;
         }
-        $this->validateInputTypes($value);
-        if ($this->transformers === []) {
-            return $value;
-        }
         try {
-            return $this->transformInputValue($value);
-        } catch (\Throwable $e) {
-            throw new TransformationException(get_class($this), $e, $e->getMessage());
+            $this->validateInputTypes($value);
+            if ($this->transformers === []) {
+                return $value;
+            }
+            $res = $this->transformInputValue($value);
+            if ($this->errors !== []) {
+                throw new TransformationContainerException(
+                    get_class($this),
+                    $this->errors,
+                    'Transformer can not transform value'
+                );
+            }
+            
+            return $res;
+        } catch (TypeException $e) {
+            throw new TransformerTypeException(get_class($this), 'Type of value invalid');
         }
     }
 }
