@@ -23,7 +23,7 @@ class TransformationContainerException extends AbstractException
     public function __construct(string $className, array $inner, string $message)
     {
         $this->inner = $inner;
-        parent::__construct($message);
+        parent::__construct($className, $message);
     }
     
     /**
