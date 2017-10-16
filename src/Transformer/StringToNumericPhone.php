@@ -8,9 +8,10 @@
 namespace NewInventor\Transformers\Transformer;
 
 
+use NewInventor\Transformers\Transformer;
 use NewInventor\TypeChecker\TypeChecker;
 
-class StringToNumericPhone
+class StringToNumericPhone extends Transformer
 {
     protected function transformInputValue($value)
     {
