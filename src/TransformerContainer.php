@@ -20,7 +20,7 @@ abstract class TransformerContainer extends Transformer implements TransformerCo
     protected $transformers;
     
     /**
-     * ArrayNormalizer constructor.
+     * TransformerContainer constructor.
      *
      * @param TransformerInterface[] $transformers
      *

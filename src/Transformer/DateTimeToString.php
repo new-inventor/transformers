@@ -19,7 +19,7 @@ class DateTimeToString extends Transformer
     private $format;
     
     /**
-     * DateTimeFormatter constructor.
+     * DateTimeToString constructor.
      *
      * @param string $format
      */

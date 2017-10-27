@@ -18,7 +18,7 @@ abstract class AbstractException extends \InvalidArgumentException implements Ex
     protected $stringCode;
     
     /**
-     * NormalizeException constructor.
+     * AbstractTransformationException constructor.
      *
      * @param string $className
      * @param string $message

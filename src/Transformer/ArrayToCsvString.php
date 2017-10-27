@@ -23,7 +23,7 @@ class ArrayToCsvString extends Transformer
     protected $encloseAll;
     
     /**
-     * ArrayFormatter constructor.
+     * ArrayToCsvString constructor.
      *
      * @param string $separator
      * @param string $enclosure

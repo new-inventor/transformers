@@ -17,7 +17,7 @@ class StringToDateTime extends Transformer
     private $format;
     
     /**
-     * DateTimeNormalizer constructor.
+     * StringToDateTime constructor.
      *
      * @param string $format
      */

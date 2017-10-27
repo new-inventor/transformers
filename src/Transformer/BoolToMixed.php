@@ -19,7 +19,7 @@ class BoolToMixed extends Transformer
     protected $false;
     
     /**
-     * BoolFormatter constructor.
+     * BoolToMixed constructor.
      *
      * @param string $true
      * @param string $false

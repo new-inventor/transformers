@@ -18,11 +18,10 @@ class ToRange extends Transformer
     protected $max;
     
     /**
-     * IntRangeNormalizer constructor.
+     * ToRange constructor.
      *
      * @param mixed|null    $min
      * @param mixed|null    $max
-     * @param callable|null $compareFunction
      */
     public function __construct($min = null, $max = null)
     {

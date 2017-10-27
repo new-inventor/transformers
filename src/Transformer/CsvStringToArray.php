@@ -20,7 +20,7 @@ class CsvStringToArray extends ToArray
     protected $escape;
     
     /**
-     * ArrayFormatter constructor.
+     * CsvStringToArray constructor.
      *
      * @param string $separator
      * @param string $enclosure

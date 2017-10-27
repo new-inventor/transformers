@@ -19,7 +19,7 @@ class ToBool extends Transformer
     private $false;
     
     /**
-     * BoolNormalizer constructor.
+     * ToBool constructor.
      *
      * @param array $true
      * @param array $false

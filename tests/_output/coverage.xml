@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1507893267">
-    <project timestamp="1507893267">
+<coverage generated="1509087792">
+    <project timestamp="1509087792">
+        <file name="/home/george/www/transformers/src/ArrayTransformerContainerInterface.php">
+            <metrics loc="12" ncloc="7" classes="0" methods="0" coveredmethods="0" conditionals="0"
+                     coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+        </file>
         <package name="NewInventor\Transformers\Exception">
             <file name="/home/george/www/transformers/src/Exception/AbstractException.php">
                 <class name="AbstractException" namespace="NewInventor\Transformers\Exception">
@@ -249,24 +253,24 @@
                     <metrics complexity="7" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0"
                              statements="13" coveredstatements="13" elements="15" coveredelements="15"/>
                 </class>
-                <line num="16" type="method" name="transformInputValue" visibility="protected" complexity="6" crap="6"
+                <line num="17" type="method" name="transformInputValue" visibility="protected" complexity="6" crap="6"
                       count="2"/>
-                <line num="18" type="stmt" count="2"/>
                 <line num="19" type="stmt" count="2"/>
                 <line num="20" type="stmt" count="2"/>
                 <line num="21" type="stmt" count="2"/>
                 <line num="22" type="stmt" count="2"/>
-                <line num="24" type="stmt" count="2"/>
+                <line num="23" type="stmt" count="2"/>
                 <line num="25" type="stmt" count="2"/>
                 <line num="26" type="stmt" count="2"/>
-                <line num="29" type="stmt" count="2"/>
+                <line num="27" type="stmt" count="2"/>
                 <line num="30" type="stmt" count="2"/>
-                <line num="35" type="stmt" count="2"/>
-                <line num="38" type="method" name="validateInputTypes" visibility="protected" complexity="1" crap="1"
+                <line num="31" type="stmt" count="2"/>
+                <line num="36" type="stmt" count="2"/>
+                <line num="39" type="method" name="validateInputTypes" visibility="protected" complexity="1" crap="1"
                       count="7"/>
-                <line num="40" type="stmt" count="7"/>
-                <line num="41" type="stmt" count="2"/>
-                <metrics loc="41" ncloc="36" classes="1" methods="2" coveredmethods="2" conditionals="0"
+                <line num="41" type="stmt" count="7"/>
+                <line num="42" type="stmt" count="2"/>
+                <metrics loc="42" ncloc="37" classes="1" methods="2" coveredmethods="2" conditionals="0"
                          coveredconditionals="0" statements="13" coveredstatements="13" elements="15"
                          coveredelements="15"/>
             </file>
@@ -329,6 +333,29 @@
                 <metrics loc="24" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0"
                          coveredconditionals="0" statements="3" coveredstatements="3" elements="5" coveredelements="5"/>
             </file>
+            <file name="/home/george/www/transformers/src/Transformer/StringToNumericPhone.php">
+                <class name="StringToNumericPhone" namespace="NewInventor\Transformers\Transformer">
+                    <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0"
+                             statements="10" coveredstatements="0" elements="12" coveredelements="0"/>
+                </class>
+                <line num="16" type="method" name="transformInputValue" visibility="protected" complexity="2" crap="6"
+                      count="0"/>
+                <line num="17" type="stmt" count="0"/>
+                <line num="18" type="stmt" count="0"/>
+                <line num="19" type="stmt" count="0"/>
+                <line num="20" type="stmt" count="0"/>
+                <line num="21" type="stmt" count="0"/>
+                <line num="23" type="stmt" count="0"/>
+                <line num="24" type="stmt" count="0"/>
+                <line num="26" type="method" name="validateInputTypes" visibility="protected" complexity="1" crap="2"
+                      count="0"/>
+                <line num="27" type="stmt" count="0"/>
+                <line num="28" type="stmt" count="0"/>
+                <line num="29" type="stmt" count="0"/>
+                <metrics loc="29" ncloc="24" classes="1" methods="2" coveredmethods="0" conditionals="0"
+                         coveredconditionals="0" statements="10" coveredstatements="0" elements="12"
+                         coveredelements="0"/>
+            </file>
             <file name="/home/george/www/transformers/src/Transformer/StringToPhone.php">
                 <class name="StringToPhone" namespace="NewInventor\Transformers\Transformer">
                     <metrics complexity="3" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0"
@@ -370,6 +397,34 @@
                 <metrics loc="34" ncloc="29" classes="1" methods="3" coveredmethods="3" conditionals="0"
                          coveredconditionals="0" statements="10" coveredstatements="10" elements="13"
                          coveredelements="13"/>
+            </file>
+            <file name="/home/george/www/transformers/src/Transformer/StringToSnakeCase.php">
+                <class name="StringToSnakeCase" namespace="NewInventor\Transformers\Transformer">
+                    <metrics complexity="3" methods="3" coveredmethods="0" conditionals="0" coveredconditionals="0"
+                             statements="9" coveredstatements="0" elements="12" coveredelements="0"/>
+                </class>
+                <line num="16" type="method" name="transformInputValue" visibility="protected" complexity="1" crap="2"
+                      count="0"/>
+                <line num="17" type="stmt" count="0"/>
+                <line num="18" type="stmt" count="0"/>
+                <line num="19" type="stmt" count="0"/>
+                <line num="20" type="stmt" count="0"/>
+                <line num="21" type="method" name="anonymousFunction:21#87" complexity="1" crap="2" count="0"/>
+                <line num="22" type="stmt" count="0"/>
+                <line num="23" type="stmt" count="0"/>
+                <line num="24" type="stmt" count="0"/>
+                <line num="25" type="stmt" count="0"/>
+                <line num="26" type="stmt" count="0"/>
+                <line num="28" type="stmt" count="0"/>
+                <line num="29" type="stmt" count="0"/>
+                <line num="31" type="method" name="validateInputTypes" visibility="protected" complexity="1" crap="2"
+                      count="0"/>
+                <line num="32" type="stmt" count="0"/>
+                <line num="33" type="stmt" count="0"/>
+                <line num="34" type="stmt" count="0"/>
+                <metrics loc="34" ncloc="29" classes="1" methods="3" coveredmethods="0" conditionals="0"
+                         coveredconditionals="0" statements="14" coveredstatements="0" elements="17"
+                         coveredelements="0"/>
             </file>
             <file name="/home/george/www/transformers/src/Transformer/StringToUpperCase.php">
                 <class name="StringToUpperCase" namespace="NewInventor\Transformers\Transformer">
@@ -468,18 +523,18 @@
                     <metrics complexity="6" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0"
                              statements="8" coveredstatements="8" elements="10" coveredelements="10"/>
                 </class>
-                <line num="27" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+                <line num="26" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="1"/>
+                <line num="28" type="stmt" count="1"/>
                 <line num="29" type="stmt" count="1"/>
                 <line num="30" type="stmt" count="1"/>
-                <line num="31" type="stmt" count="1"/>
-                <line num="33" type="method" name="transformInputValue" visibility="protected" complexity="5" crap="5"
+                <line num="32" type="method" name="transformInputValue" visibility="protected" complexity="5" crap="5"
                       count="1"/>
+                <line num="34" type="stmt" count="1"/>
                 <line num="35" type="stmt" count="1"/>
-                <line num="36" type="stmt" count="1"/>
+                <line num="37" type="stmt" count="1"/>
                 <line num="38" type="stmt" count="1"/>
-                <line num="39" type="stmt" count="1"/>
-                <line num="42" type="stmt" count="1"/>
-                <metrics loc="43" ncloc="29" classes="1" methods="2" coveredmethods="2" conditionals="0"
+                <line num="41" type="stmt" count="1"/>
+                <metrics loc="42" ncloc="29" classes="1" methods="2" coveredmethods="2" conditionals="0"
                          coveredconditionals="0" statements="8" coveredstatements="8" elements="10"
                          coveredelements="10"/>
             </file>
@@ -554,7 +609,7 @@
             <metrics loc="20" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0"
                      coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </file>
-        <metrics files="29" loc="1061" ncloc="756" classes="24" methods="61" coveredmethods="56" conditionals="0"
-                 coveredconditionals="0" statements="214" coveredstatements="208" elements="275" coveredelements="264"/>
+        <metrics files="32" loc="1136" ncloc="817" classes="26" methods="66" coveredmethods="56" conditionals="0"
+                 coveredconditionals="0" statements="238" coveredstatements="208" elements="304" coveredelements="264"/>
     </project>
 </coverage>
