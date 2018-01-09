@@ -17,15 +17,19 @@ class DateTimeToString extends Transformer
      * @var string
      */
     private $format;
+    /** @var \DateTimeZone|null */
+    private $timezone;
     
     /**
      * DateTimeToString constructor.
      *
-     * @param string $format
+     * @param string             $format
+     * @param \DateTimeZone|null $timezone
      */
-    public function __construct(string $format = 'd.m.Y H:i:s')
+    public function __construct(string $format = 'd.m.Y H:i:s', \DateTimeZone $timezone = null)
     {
         $this->format = $format;
+        $this->timezone = $timezone;
     }
     
     /**
@@ -35,7 +39,7 @@ class DateTimeToString extends Transformer
      */
     public function transformInputValue($value): ?string
     {
-        return $value->format($this->format);
+        return $value->setTimezone($this->timezone)->format($this->format);
     }
     
     protected function validateInputTypes($value)
